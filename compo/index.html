@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="welcomeMessage">
+		Welcome to My World
+	</div>
+	<script type="text/javascript">
+		var shadowHost = document.querySelector("#welcomeMessage");
+		var shadowRoot = shadowHost.ShadowRoot();
+		shadowRoot.textContent = "Hello Shadow DOM World";
+	</script>
+</body>
+</html>
